@@ -7,22 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WeDevs\\WpUtils\\' => 15,
         ),
-        'F' => 
+        'F' =>
         array (
             'FlyWP\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WeDevs\\WpUtils\\' => 
+        'WeDevs\\WpUtils\\' =>
         array (
             0 => __DIR__ . '/..' . '/wedevs/wp-utils/src',
         ),
-        'FlyWP\\' => 
+        'FlyWP\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
