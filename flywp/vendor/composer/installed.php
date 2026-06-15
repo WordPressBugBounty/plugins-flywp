@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'flywp/flywp',
-        'pretty_version' => '1.5.1',
-        'version' => '1.5.1.0',
+        'pretty_version' => '1.5.2',
+        'version' => '1.5.2.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'flywp/flywp' => array(
-            'pretty_version' => '1.5.1',
-            'version' => '1.5.1.0',
+            'pretty_version' => '1.5.2',
+            'version' => '1.5.2.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
