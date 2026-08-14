@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4
+class ComposerStaticInit2912db101e72bc9c2c6c3868b0b90d88
 {
     public static $prefixLengthsPsr4 = array (
         'W' =>
@@ -53,6 +53,7 @@ class ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4
         'FlyWP\\Frontend\\MagicLogin' => __DIR__ . '/../..' . '/includes/Frontend/MagicLogin.php',
         'FlyWP\\Helper' => __DIR__ . '/../..' . '/includes/Helper.php',
         'FlyWP\\Litespeed' => __DIR__ . '/../..' . '/includes/Litespeed.php',
+        'FlyWP\\MagicLoginToken' => __DIR__ . '/../..' . '/includes/MagicLoginToken.php',
         'FlyWP\\Opcache' => __DIR__ . '/../..' . '/includes/Opcache.php',
         'FlyWP\\Optimizations' => __DIR__ . '/../..' . '/includes/Optimizations.php',
         'FlyWP\\Optimizations\\Admin' => __DIR__ . '/../..' . '/includes/Optimizations/Admin.php',
@@ -69,9 +70,9 @@ class ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3367d7dc99b78433141daa7e46cd92f4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2912db101e72bc9c2c6c3868b0b90d88::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2912db101e72bc9c2c6c3868b0b90d88::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit2912db101e72bc9c2c6c3868b0b90d88::$classMap;
 
         }, null, ClassLoader::class);
     }

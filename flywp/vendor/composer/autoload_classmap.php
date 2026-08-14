@@ -30,6 +30,7 @@ return array(
     'FlyWP\\Frontend\\MagicLogin' => $baseDir . '/includes/Frontend/MagicLogin.php',
     'FlyWP\\Helper' => $baseDir . '/includes/Helper.php',
     'FlyWP\\Litespeed' => $baseDir . '/includes/Litespeed.php',
+    'FlyWP\\MagicLoginToken' => $baseDir . '/includes/MagicLoginToken.php',
     'FlyWP\\Opcache' => $baseDir . '/includes/Opcache.php',
     'FlyWP\\Optimizations' => $baseDir . '/includes/Optimizations.php',
     'FlyWP\\Optimizations\\Admin' => $baseDir . '/includes/Optimizations/Admin.php',
