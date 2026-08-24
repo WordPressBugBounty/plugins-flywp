@@ -4,7 +4,7 @@ Tags: OPcache, Optimize, cache, page cache, performance
 Requires at least: 5.0
 Tested up to: 7.0
 Requires PHP: 7.4 or higher
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -253,6 +253,10 @@ FlyWP is a product of weDevs. We have very popular products like Dokan Multivend
 1. FlyWP settings page.
 
 == Changelog ==
+
+= v1.7.1 (23 August, 2026) =
+
+ * **Fix:** Corrected the FlyWP API endpoint so update sync, cache toggling, and site info requests no longer fail with 404.
 
 = v1.7.0 (17 August, 2026) =
 
